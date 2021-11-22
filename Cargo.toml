@@ -1,0 +1,16 @@
+[package]
+name = "does-elon-musk-pee-sitting-down"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+derive_builder = "0.10.2"
+futures = "0.3.17"
+parse-display = "0.5"
+pin-project = "1.0.8"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0.30"
+tokio = { version = "1.14", features = ["rt", "macros"] }
+url = "2.2.2"
